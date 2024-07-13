@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Bootstrap Try 1</title>
+    <style>
+        .container{
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+        }
+    </style>
+</head>
+<body>
+    <div id="Intro" class="carousel container" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button data-bs-target="#Intro" data-bs-slide-to="0" class="active"></button>
+            <button data-bs-target="#Intro" data-bs-slide-to="1"></button>
+            <button data-bs-target="#Intro" data-bs-slide-to="2"></button>
+            <button data-bs-target="#Intro" data-bs-slide-to="3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/swift01.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="img/swift02.avif" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="img/swift03.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="img/swift04.png" class="d-block w-100">
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#Intro" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#Intro" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <div class="container">
+        <nav class="container-fluid navbar navbar-expand-lg bg-dark navbar-dark sticky-top text-white justify-content-between">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Overview</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Pathway</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p class="display-1">
+            The powerful programming language that’s also easy to learn.
+        </p>
+        <p class="lead">
+            Swift is a powerful and intuitive programming language for all Apple platforms. It’s easy to get started using Swift, with a concise-yet-expressive syntax and modern features you’ll love. Swift code is safe by design and produces software that runs lightning‑fast.
+        </p>
+        <button class="bg-white mb-4">
+            Learn more
+        </button>
+        <div class="d-flex flex-column flex-md-row mb-4">
+            <div class="container-fluid">
+                <h1>Great first language</h1>
+                <p>Swift can open doors to the world of coding. In fact, it was designed to be anyone’s first programming language, whether you’re still in school or exploring new career paths. For educators, Apple created free curriculum to teach Swift both in and out of the classroom. First-time coders can download Swift Playgrounds — an app for iPad and Mac that makes getting started with Swift code interactive and fun.</p>
+                <button class="bg-black text-white">
+                    Learn more
+                </button>
+            </div>
+            <div class="container">
+                <h1>Designed for safety</h1>
+                <p>Swift eliminates entire classes of unsafe code. Variables are always initialized before use, arrays and integers are checked for overflow, memory is automatically managed, and potential data races can be spotted at compile-time. Syntax is tuned to make it easy to define your intent — for example, simple three-character keywords define a variable ( var ) or constant ( let ). And Swift heavily leverages value types, especially for commonly used types like Arrays and Dictionaries. This means that when you make a copy of something with that type, you know it won’t be modified elsewhere.</p>
+                <button class="bg-black text-white">
+                    Learn More
+                </button>
+            </div>
+            <div class="container">
+                <h1>Fast and powerful</h1>
+                <p>From its earliest conception, Swift was built to be fast. Using the incredibly high-performance LLVM compiler technology, Swift code is transformed into optimized machine code that gets the most out of modern hardware. The syntax and standard library have also been tuned to make the most obvious way to write your code also perform the best whether it runs in the watch on your wrist or across a cluster of servers.</p>
+                <button class="bg-black text-white">
+                    Learn more
+                </button>
+            </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row mb-4 contianer">
+            <div class="container justify-content-between">
+                <h1>Open source</h1>
+                <p>Swift is developed in the open at Swift.org, with source code, a bug tracker, forums, and regular development builds available for everyone. This broad community of developers, both inside Apple as well as hundreds of outside contributors, work together to make Swift even more amazing. There is an even broader range of blogs, podcasts, conferences, and meetups where developers in the community share their experiences of how best to use Swift.</p>
+            </div>
+            <img src="img/media.png" class="img-fluid" width="30%" height="100%">
+        </div>
+        <div class="d-flex justify-content-center w-100">
+            <img src="img/final.png" class="img-fluid mx-auto" width="30%" height="100%">
+        </div>
+    </div>
+</body>
+</html>
